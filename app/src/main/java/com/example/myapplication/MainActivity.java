@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void selecionarBotao(View v) {
         TextView texto = findViewById(R.id.resultText);
-        texto.setText("TEXTO ALTERADO");
+        texto.setText("TEXTO ALTERADO!");
     }
 }

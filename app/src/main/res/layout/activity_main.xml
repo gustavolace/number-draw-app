@@ -10,17 +10,19 @@
         android:id="@+id/button"
         android:layout_width="108dp"
         android:layout_height="59dp"
+        android:layout_marginTop="16dp"
         android:onClick="selecionarBotao"
-        android:text="Butao"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="42dp" />
+        app:layout_constraintTop_toBottomOf="@+id/resultText" />
 
     <TextView
         android:id="@+id/resultText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resultado"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="14dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
