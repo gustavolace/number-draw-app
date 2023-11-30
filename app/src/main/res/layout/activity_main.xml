@@ -10,7 +10,7 @@
         android:id="@+id/button"
         android:layout_width="108dp"
         android:layout_height="59dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="35dp"
         android:onClick="selecionarBotao"
         android:text="Sortear"
         app:layout_constraintEnd_toEndOf="parent"

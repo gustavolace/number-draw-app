@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void selecionarBotao(View v) {
         int x = new Random().nextInt(11);
 
-        TextView texto = findViewById(R.id.resultText);
-        texto.setText("Resultado: " + x);
+        TextView text = findViewById(R.id.resultText);
+        text.setText("Resultado: " + x);
     }
 }
