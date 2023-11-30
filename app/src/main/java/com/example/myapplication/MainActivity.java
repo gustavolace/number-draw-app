@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void selecionarBotao(View v) {
+        int x = new Random().nextInt(11);
+
         TextView texto = findViewById(R.id.resultText);
-        texto.setText("TEXTO ALTERADO!");
+        texto.setText("Resultado: " + x);
     }
 }
